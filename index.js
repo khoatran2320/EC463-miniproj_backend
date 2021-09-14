@@ -9,14 +9,14 @@ app.use(express.json())
 //imports
 
 //firebase
-var admin = require("firebase-admin");
-var serviceAccount = require("/Users/khoatran/Downloads/firebase_key.json");
-admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount)
-  });
+// var admin = require("firebase-admin");
+// var serviceAccount = require("/Users/khoatran/Downloads/firebase_key.json");
+// admin.initializeApp({
+//     credential: admin.credential.cert(serviceAccount)
+//   });
 
-const db = admin.firestore();
-const auth = admin.auth();
+// const db = admin.firestore();
+// const auth = admin.auth();
 
 
 //fdc
