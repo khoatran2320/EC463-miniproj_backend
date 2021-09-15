@@ -25,6 +25,9 @@ const FDC_ROUTE = "https://api.nal.usda.gov/fdc/v1/foods";
 
 
 //routes
+app.get("/", (req, res) => {
+    res.send("Hello visitor! Please use out mobile application for a real UI.")
+})
 app.get("/search_keyword", (req, res) => {
     axios.get(FDC_ROUTE + "/search", {
         params: {
