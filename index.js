@@ -39,7 +39,7 @@ app.get("/search_keyword", (req, res) => {
     .then((response) => {
         console.log(response.data);
         //send results back to frontend
-        res.send(response.data)
+        res.status(200).send(response.data)
     })
     .catch((err) => {
         // error handling
