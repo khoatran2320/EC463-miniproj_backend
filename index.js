@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 3000;
 
 
 //fdc
-const FDC_API_KEY = "DEMO_KEY";
+const FDC_API_KEY = "nreWWPt47GHQ6wiSykCl8wQR1PT6QlANMMa0hExE";
 const FDC_ROUTE = "https://api.nal.usda.gov/fdc/v1/foods";
 
 
