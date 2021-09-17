@@ -1,3 +1,6 @@
+# 2021 EC463 Software Mini Project
+By Khoa Tran and Carmen Hurtado Garcia
+ 
 This is the server code for EC463 Mini Project. The server is hosted live on Heroku. 
 
 ## APIs
